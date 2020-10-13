@@ -10,7 +10,9 @@ border: 1px dashed black;
 }
 #container header {
 padding: 0 20px;
- position: relative; 
+position: relative; 
+ text-align: center;
+
 }
 #container header ul {
 list-style: none;
