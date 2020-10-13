@@ -1,4 +1,10 @@
-body {
-  color: blue;
+html, body {
+margin: 0 ;
+} 
+#container{
+border: 1px dashed black;
+  width:500px
+    margin: 0 auto; 
+
 }
 
