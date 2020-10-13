@@ -19,6 +19,9 @@ display: inline-block;
 }
 #container header ul li a  {
 text-decoration: none;
-  
+  color: white;
+  background-color: dodgerblue;
+  padding: Spx;
+  display: block;
 }
 
