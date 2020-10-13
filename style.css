@@ -24,8 +24,6 @@ display: inline-block;
 }
 #container header ul li a  {
 text-decoration: none;
-  color: white;
-  background-color: cyan;
   padding: 5px;
   display: block;
 }
