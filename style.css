@@ -2,12 +2,7 @@ html, body {
  margin: 0;
   font-family: "Times New Roman", Times, serif;
 }
-.topleft {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-  font-size: 18px;
-}
+
 #container{
 border: 1px dashed black;
  width: 500px
