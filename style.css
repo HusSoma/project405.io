@@ -4,7 +4,20 @@ margin: 0 ;
 #container{
 border: 1px dashed black;
   width:500px
-    margin: 0 auto; 
+ margin: 0 auto; 
 
 }
+#container heager ul {
+list-style:none;
+  padding:0;
+   margin: 0 ; 
+}
+#container heager ul li {
+disolay: inline-block;
+  margin-right: 10px;
+  
+}
+#container heager ul li a {
 
+  
+}
