@@ -21,6 +21,7 @@ margin: 0 ;
  
 }
 #container header ul li {
+ background-color: #00FFFF; 
 font-family: "Trebuchet MS", Helvetica, sans-serif;
 display: inline-block;
   margin-right: 10px;
