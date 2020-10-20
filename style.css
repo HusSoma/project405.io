@@ -23,11 +23,12 @@ margin: 0 ;
 #container header ul li {
 display: inline-block;
 background-color: #344960; 
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+color: white;
 margin-right: 10px;
   
 }
 #container header ul li a  {
-font-family: "Trebuchet MS", Helvetica, sans-serif;
 text-decoration: none;
   padding: 5px;
   display: block;
