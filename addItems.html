@@ -1,1 +1,37 @@
+<html>
+  
+  <head>
+    <title>Project</title>
+      <link rel="stylesheet" href="style.css" >
+      <style>
+    body { background-color: #fff8e7; }
+  </style>
+     </head>
+  
+    <body>  
 
+<script type="text/javascript">
+    /* The uploader form */
+    $(function () {
+        $(":file").change(function () {
+            if (this.files && this.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = imageIsLoaded;
+                reader.readAsDataURL(this.files[0]);
+            }
+        });
+    });
+
+    function imageIsLoaded(e) {
+        $('#myImg').attr('src', e.target.result);
+        $('#yourImage').attr('src', e.target.result);
+    };
+
+</script>
+
+
+<input type='file' />
+</br><img id="myImg" src="#" alt="your image" height=200 width=100>
+  </body>
+</html>
