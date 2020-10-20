@@ -21,16 +21,28 @@ margin: 0 ;
  
 }
 #container header ul li {
- background-color: #00FFFF; 
+ background-color: #344960; 
 font-family: "Trebuchet MS", Helvetica, sans-serif;
 display: inline-block;
   margin-right: 10px;
   
 }
 #container header ul li a  {
- background-color: #00FFFF; 
+ 
 text-decoration: none;
   padding: 5px;
   display: block;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
